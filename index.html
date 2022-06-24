@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>To Do App</h1>
+    <header>
+        <h1>To Do App</h1>    
+    </header>
 
-    <form action="">
-        <label for="todoInput">Enter your todo:</label>
-        <input type="text" placeholder="Enter Here..." />
-
-        <button>Add Todo</button>
-    </form>
+    <main>
+        <div class="Container">
+            <form>
+                <label for="toDoInput">Enter your todo:</label>
+                <input id="inputField" type="text" placeholder="Enter Here..." /> 
+                <button id="toDoBtn">Add Todo</button>
+            </form>
+            <div class="todos" id="todoContainer"> </div>
+        </div>        
+    </main>
+    
+    <script src="./app.js/"></script>
 </body>
-</html>
+</html> 
