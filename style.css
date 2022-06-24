@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{ 
+    background-image: linear-gradient(to bottom right, #0AFFED, #BADEFC);
+}
+
+html, body { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.container{
+    width: 480px;
+}
+
+header > h1{
+    margin: 10% 0;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(#c3cfd7, #671e1e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;  
+}
+
+#inputField{
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+#toDoBtn{
+    height: 3rem;
+    width: 5rem;
+    border: 1px solid black;
+}
+
+.todos{
+    margin-top: 25px;
+}
+
+.task{
+    margin: 0;
+    cursor: pointer;
+    font-size: 25px;
+}
